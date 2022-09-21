@@ -1,0 +1,55 @@
+
+/* Root and background setup */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgray;
+}
+
+
+
+
+
+
+/* Navigation bar */
+
+#navbarTop {
+    padding: 0px 20px;
+}
+
+.navbar {
+    width: 97%;
+    border: darkgray solid 2px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+div a {
+    padding: 20px;
+    height: fit-content;
+}
+
+.homeNav, 
+.databaserNav,
+.webprosjektNav,
+.digitekNav {
+    border-right: 1px grey solid;
+}
+
+.navbar a:hover {
+    transition: 0.4s;
+    background-color: white;
+    cursor: default;
+}
+
+/* Justify main content */
+
+.main {
+    border-bottom: 1px solid black;
+    margin: 2%;
+    padding: 5px;
+}
