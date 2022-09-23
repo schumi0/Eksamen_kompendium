@@ -26,6 +26,23 @@
     grid-auto-flow: column;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navhide {
+    width: 97%;
+    border: darkgray solid 2px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 0;
 }
 
 div a {
@@ -52,4 +69,5 @@ div a {
     border-bottom: 1px solid black;
     margin: 2%;
     padding: 5px;
+    z-index: 5;
 }
